@@ -35,11 +35,13 @@
 
 // 1°) Déclaration de la fonction avec paramètre
 
-
-
-
-
-
+function direBonjour(prenom) {
+    console.log(`Bonjour ${prenom} !`);
+    console.log(`Hello ${prenom} !`);
+    console.log(`Comment vas-tu ${prenom} ?`);
+    console.log(`Hey, salut ${prenom} !`);
+    console.log(`Buenos dias ${prenom} !`);
+}
 
 /*
 Au moment de la DÉCALARATION de la fonction, on définit le paramètre
@@ -49,8 +51,8 @@ puis on l'utilise dans le corps de la fonction
 
 // 2°) Appel de la fonction avec paramètre
 
-
-
+direBonjour("Baptiste");
+direBonjour("Sophie");
 
 /* 
 Au moment de l'APPEL de la fonction, on donne une VALEUR au paramètre

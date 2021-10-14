@@ -18,8 +18,12 @@
 - L'utiliser pour saluer Thomas dans la console
 */
 
+const bonjour = (prenom) => {
+    const message = `Bonjour ${prenom} !`;
+    return message;
+}
 
-
+console.log(bonjour("Thomas"));
 
 
 /*
@@ -35,3 +39,6 @@ N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions
 - L'utiliser pour saluer Thomas dans la console
 */
 
+const bonjour1 = (prenom) => `Bonjour ${prenom} !`;
+
+console.log(bonjour1("Thomas"));

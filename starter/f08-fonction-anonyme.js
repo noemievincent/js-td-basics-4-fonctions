@@ -14,10 +14,11 @@
 - Exécuter la fonction
 */
 
-
-
-
-
+// const direBonjour = function(){
+//     console.log("Bonjour !");
+// }
+//
+// direBonjour();
 
 // 	b) sans paramètre mais avec return
 
@@ -27,9 +28,11 @@
 - L'utiliser pour afficher "Bonjour !" dans la console
 */
 
-
-
-
+// const direBonjour = function (){
+//     return "Bonjour !";
+// }
+//
+// console.log(direBonjour());
 
 
 // c) avec paramètre et return
@@ -42,3 +45,9 @@
 - L'utiliser pour saluer Thomas dans la console
 */
 
+const salue = function (prenom){
+    const message = `Bonjour ${prenom} !`;
+    return message;
+}
+
+console.log(salue("Thomas"));
