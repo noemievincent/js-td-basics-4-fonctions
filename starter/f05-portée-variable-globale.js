@@ -26,15 +26,18 @@ Une variable globale est accessible de partout
 4. Expliquer ce qui se passe
 */
 
-
-
-
-
-
-
-
-
-
+// function affiche1() {
+//     const nbre1 = 2;
+//     return nbre1;
+// }
+// function affiche2() {
+//     const nbre2 = 3;
+//     return nbre2;
+//     console.log(`Dans affiche2 : nbre2 = ${affiche2()}`);
+//     console.log(`Dans affiche1 : nbre1 = ${affiche1()}`);
+// }
+//
+// affiche2();
 
 
 /*
@@ -55,15 +58,19 @@ et elle n'est disponible qu'à l'intérieur de cette fonction
 5. Expliquer ce qui se passe
 */
 
-
-
-
-
-
-
-
-
-
+// const nbre1 = 2;
+//
+// function affiche1() {
+//     console.log(`Dans affiche1 : nbre1 = ${nbre1}`);
+// }
+// function affiche2() {
+//     const nbre2 = 3;
+//     console.log(`Dans affiche2 : nbre2 = ${nbre2}`);
+//     console.log(`Dans affiche1 : nbre1 = ${nbre1}`);
+// }
+//
+// affiche1();
+// affiche2();
 
 
 
@@ -90,12 +97,20 @@ On dit alors que c'est une variable "globale"
 5. Expliquer ce qui se passe
 */
 
+let nbre1;
 
+function affiche1() {
+    const nbre1 = 2;
+    console.log(`Dans affiche1 : nbre1 = ${nbre1}`);
+}
+function affiche2() {
+    const nbre2 = 3;
+    console.log(`Dans affiche2 : nbre2 = ${nbre2}`);
+    console.log(`Dans affiche1 : nbre1 = ${nbre1}`);
+}
 
-
-
-
-
+affiche1();
+affiche2();
 
 /*
 Pour qu'une variable ait une portée globale,

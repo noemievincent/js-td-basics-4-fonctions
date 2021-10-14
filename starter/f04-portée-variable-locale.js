@@ -19,12 +19,13 @@ Une variable locale n'est accessible qu'à l'intérieur de la fonction.
 donner l'ordre d'afficher dans la console le contenu de la variable message
 */
 
+// function direBonjour(){
+//     const message = "Bonjour !";
+//     console.log(message);
+// }
+// direBonjour();
 
-
-
-
-
-
+// console.log(message);
 
 
 /* 
@@ -42,9 +43,14 @@ Ma variable message est une variable locale, je l'ai déclarée dans ma fonction
 	- trouver le bon moyen pour afficher dans la console le contenu de la variable message
 */
 
+function direBonjour() {
+    const message = "Bonjour !";
+    return message;
+}
+direBonjour();
 
-
-
+// console.log(message);
+console.log(direBonjour());
 
 
 /* 
