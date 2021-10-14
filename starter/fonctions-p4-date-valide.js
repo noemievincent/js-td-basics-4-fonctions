@@ -9,6 +9,13 @@ Ecrire un programme JS qui teste si une date entrée par l’utilisateur est une
 	avant d'afficher votre message dans la console
 */
 
+function isBissextile() {
+
+}
+function isValid() {
+
+}
+
 /*
 AIDE (en français) : 
 Pour qu’une date soit valide, il faut que la date du jour ne dépasse pas

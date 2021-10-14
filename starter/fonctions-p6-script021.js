@@ -17,3 +17,6 @@ pour différents cas de job :
     - Mark (retired)
 */
 
+const whatDoYouDo = function (job, firstName){
+
+}

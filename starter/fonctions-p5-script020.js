@@ -10,6 +10,9 @@ Cette fonction retourne l'âge de la personne
 en calculant l'année courante moins son année de naissance
 */
 
+function calculateAge(birthYear) {
+
+}
 
 
 /* 

@@ -17,5 +17,3 @@ Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb
 
 
 
-
-
