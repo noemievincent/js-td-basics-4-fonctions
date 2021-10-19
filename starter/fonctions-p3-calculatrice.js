@@ -13,7 +13,23 @@ Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb
 */
 
 
+function calculer(nombre1, operation, nombre2){
+    switch (operation){
+        case "+" :
+            console.log(nombre1 + nombre2);
+        break;
+        case "-" :
+            console.log(nombre1 - nombre2);
+        break;
+        case "*" :
+            console.log(nombre1 * nombre2);
+        break;
+        case "/" :
+            console.log(nombre1 / nombre2);
+        break;
+    }
+}
 
-
+calculer(12, "/",0);
 
 

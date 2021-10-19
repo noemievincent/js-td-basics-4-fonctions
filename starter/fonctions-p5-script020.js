@@ -11,9 +11,14 @@ en calculant l'année courante moins son année de naissance
 */
 
 function calculateAge(birthYear) {
-
+    let iYear = new Date().getFullYear();
+    let iAge = iYear - birthYear;
+    return iAge;
 }
 
+console.log(calculateAge(1990));
+console.log(calculateAge(1948));
+console.log(calculateAge(1969));
 
 /* 
 Utiliser la fonction qu'on vient de créer pour calculer
@@ -45,6 +50,15 @@ Utiliser ensuite la fonction pour calculer dans cobien d'années seront pensionn
 	- Jane (née en 1969)
 */
 
+function giveYearsUntilRetirement(year, firstName){
+    calculateAge();
+    let iRetirement = 65 - iAge;
+    if (iRetirement > 0){
+        console.log(`${firstName} prendre sa pension dans ${iRetirement} ans.`);
+    } else {
+        console.log(`${firstName} est déjà pensionné`);
+    }
+    return iRetirement;
+}
 
-
-
+giveYearsUntilRetirement(1990, "John");
