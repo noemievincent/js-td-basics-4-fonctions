@@ -4,5 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="js-td-basics-3-boucles" />
+    <orderEntry type="module" module-name="js-td-basics-2-tests" />
+    <orderEntry type="module" module-name="js-td-basics-1-variables" />
+    <orderEntry type="module" module-name="js-td-basics-5-tableaux" />
+    <orderEntry type="module" module-name="js-td-basics-6-objets" />
   </component>
 </module>

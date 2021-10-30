@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../js-td-basics-1-variables/.idea/js-td-basics-1-variables.iml" filepath="$PROJECT_DIR$/../js-td-basics-1-variables/.idea/js-td-basics-1-variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-td-basics-2-tests/.idea/js-td-basics-2-tests.iml" filepath="$PROJECT_DIR$/../js-td-basics-2-tests/.idea/js-td-basics-2-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-td-basics-3-boucles/.idea/js-td-basics-3-boucles.iml" filepath="$PROJECT_DIR$/../js-td-basics-3-boucles/.idea/js-td-basics-3-boucles.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/js-td-basics-4-fonctions.iml" filepath="$PROJECT_DIR$/.idea/js-td-basics-4-fonctions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-td-basics-5-tableaux/.idea/js-td-basics-5-tableaux.iml" filepath="$PROJECT_DIR$/../js-td-basics-5-tableaux/.idea/js-td-basics-5-tableaux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-td-basics-6-objets/.idea/js-td-basics-6-objets.iml" filepath="$PROJECT_DIR$/../js-td-basics-6-objets/.idea/js-td-basics-6-objets.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../js-td-basics-1-variables" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../js-td-basics-2-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../js-td-basics-5-tableaux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../js-td-basics-6-objets" vcs="Git" />
   </component>
 </project>
